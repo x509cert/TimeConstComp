@@ -34,7 +34,7 @@ namespace TimeConstantCompare
         {
             bool same = TimeConstantCompare(s1, s2);
             string passfail = (same == expected) ? "PASS" : "FAIL";
-            Console.WriteLine($"[{s1}] == [{s2}]? {passfail}");
+            Console.WriteLine($"{passfail} [{s1}] == [{s2}]?");
         }
 
         /// <summary>
