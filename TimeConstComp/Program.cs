@@ -12,6 +12,7 @@ namespace TimeConstantCompare
             Test("fred",        "jim",      false);
             Test("",            "",         true);
             Test("Mike",        "Mike",     true);
+            Test("Michael",     "Michaela", false);
             Test("",            " ",        false);
             Test(" ",           "  ",       false);
             Test("\uD802",      "\uD8ff",   false);
